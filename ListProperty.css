@@ -1,0 +1,182 @@
+.list-property-page {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  padding-top: 2rem;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: #333;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.page-subtitle {
+  font-size: 1.1rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.properties-list {
+  margin-bottom: 4rem;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #d4af37;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.property-names-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.property-name-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border-left: 4px solid #d4af37;
+}
+
+.property-name-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.property-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.property-rera {
+  font-size: 0.9rem;
+  color: #d4af37;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.property-location {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.property-spec {
+  font-size: 0.9rem;
+  color: #888;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+.property-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.75rem;
+  border-top: 1px solid #eee;
+}
+
+.property-rate {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #d4af37;
+}
+
+.property-plots {
+  font-size: 0.9rem;
+  color: #666;
+  background-color: #f0f0f0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+}
+
+.contact-section {
+  background: white;
+  padding: 3rem 2rem;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-text {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.contact-btn {
+  background-color: #d4af37;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(212, 175, 55, 0.3);
+}
+
+.contact-btn:hover {
+  background-color: #b8941f;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .list-property-page {
+    padding-top: 1rem;
+  }
+  
+  .page-title {
+    font-size: 2rem;
+  }
+  
+  .property-names-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+  
+  .property-name-card {
+    padding: 1rem;
+  }
+  
+  .property-details {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  
+  .contact-section {
+    margin: 0 1rem;
+    padding: 2rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-title {
+    font-size: 1.5rem;
+  }
+  
+  .property-names-grid {
+    padding: 0 0.5rem;
+  }
+}

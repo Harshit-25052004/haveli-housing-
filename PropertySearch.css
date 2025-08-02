@@ -1,0 +1,138 @@
+.property-search {
+  width: 100%;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+
+.property-tabs {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 0.5rem 0.5rem 0 0;
+  padding: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0);
+}
+
+.property-tabs-container {
+  display: flex;
+}
+
+.property-tab {
+  flex: 1;
+  padding: 1rem 1.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.property-tab.active {
+  background: transparent;
+  color: #000000;
+  text-decoration: underline;
+}
+
+.property-tab.inactive {
+  color: #000000;
+  background: transparent;
+}
+
+.property-tab.inactive:hover {
+  color: #000000;
+  background: transparent;
+  text-decoration: underline;
+}
+
+.property-tab.first {
+  border-radius: 0.5rem 0 0 0;
+}
+
+.property-tab.last {
+  border-radius: 0 0.5rem 0 0;
+}
+
+.search-section {
+  background: rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  border-radius: 0 0 0.5rem 0.5rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0);
+}
+
+.search-input-container {
+  display: flex;
+  gap: 0;
+}
+
+.search-input-wrapper {
+  flex: 1;
+}
+
+.search-input {
+  height: 3.5rem;
+  width: 100%;
+  font-size: 1rem;
+  border: 0;
+  border-right: 1px solid #e5e7eb;
+  border-radius: 0.375rem 0 0 0.375rem;
+  background: #f9fafb;
+  padding: 0 1rem;
+  outline: none;
+}
+
+.search-input:focus {
+  border-right: 1px solid #e5e7eb;
+  
+}
+
+.search-input::placeholder {
+  color: #9ca3af;
+}
+
+.search-button {
+  height: 3.5rem;
+  padding: 0 2rem;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  border-radius: 0 0.375rem 0.375rem 0;
+  border: 0;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.search-button:hover {
+  background: #1d4ed8;
+}
+
+.additional-options {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+
+.additional-options p {
+  font-size: 0.875rem;
+  color: #4b5563;
+  margin: 0;
+}
+
+.list-property-link {
+  padding: 0;
+  height: auto;
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 0.875rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.list-property-link:hover {
+  color: #1d4ed8;
+}

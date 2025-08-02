@@ -1,0 +1,168 @@
+.menu-dropdown {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  padding-top: 5rem;
+}
+
+.menu-dropdown-content {
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  animation: slideDown 0.3s ease-out;
+  max-height: calc(100vh - 5rem);
+  overflow-y: auto;
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem 1.5rem;
+  padding: 1rem;
+  max-width: 900px;
+  margin: 0;
+}
+
+/* Column 1: Buy, Sell, Rent */
+.menu-section:nth-child(1) { /* Buy */
+  grid-column: 1;
+  grid-row-start: 1;
+}
+.menu-section:nth-child(2) { /* Sell */
+  grid-column: 1;
+}
+.menu-section:nth-child(3) { /* Rent */
+  grid-column: 1;
+}
+
+/* Column 2: Services, Roadshows */
+.menu-section:nth-child(4) { /* Services */
+  grid-column: 2;
+  grid-row-start: 1;
+}
+.menu-section:nth-child(5) { /* Roadshows */
+  grid-column: 2;
+}
+
+/* Column 3: About */
+.menu-section:nth-child(6) { /* About */
+  grid-column: 3;
+  grid-row-start: 1;
+}
+
+/* Column 4: Contact */
+.menu-section:nth-child(7) { /* Contact */
+  grid-column: 4;
+  grid-row-start: 1;
+}
+
+.menu-section {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.menu-section-title {
+  font-size: 0.875rem;
+  font-weight: bold;
+  color: #111827;
+  margin: 0;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: left;
+}
+
+.menu-subsection-title {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #374151;
+  margin: 0.75rem 0 0.375rem 0;
+}
+
+.menu-section-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-section-list li {
+  margin-bottom: 0.125rem;
+}
+
+.menu-link {
+  color: #4b5563;
+  text-decoration: none;
+  font-size: 0.75rem;
+  line-height: 1.2;
+  transition: color 0.2s ease;
+  display: block;
+  padding: 0.0625rem 0;
+}
+
+.menu-link:hover {
+  color: #2563eb;
+}
+
+.menu-backdrop {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  z-index: -1;
+}
+
+@media (max-width: 768px) {
+  .menu-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.75rem 1.5rem;
+    padding: 0.75rem;
+  }
+  
+  /* Left column: Buy, Sell, Rent, Services */
+  .menu-section:nth-child(1), /* Buy */
+  .menu-section:nth-child(2), /* Sell */
+  .menu-section:nth-child(3), /* Rent */
+  .menu-section:nth-child(4) { /* Services */
+    grid-column: 1;
+  }
+  
+  /* Right column: Roadshows, About, Contact */
+  .menu-section:nth-child(5), /* Roadshows */
+  .menu-section:nth-child(6), /* About */
+  .menu-section:nth-child(7) { /* Contact */
+    grid-column: 2;
+  }
+}
+
+@media (max-width: 480px) {
+  .menu-dropdown {
+    padding-top: 4rem;
+  }
+  
+  .menu-grid {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    padding: 0.75rem;
+  }
+  
+  /* All sections in single column */
+  .menu-section {
+    grid-column: 1;
+  }
+}
