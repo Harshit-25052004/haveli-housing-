@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "E001",
+    "name": "Sandeep Meena",
+    "aadhar_number": "7890-1234-5678",
+    "account_number": "100200300456",
+    "rera_number": "RAJ2025EMP001",
+    "total_sales": 5,
+    "superior_name": "Anil Rathore",
+    "photo_url": "https://yourdomain.com/images/sandeep.jpg",
+    "ongoing_work": [
+      {
+        "client_id": "c001",
+        "project_id": "68864aa2a3c55c813f55dc51",
+        "plot_number": 21
+      }
+    ]
+  }
+]
