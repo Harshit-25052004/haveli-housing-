@@ -12,7 +12,7 @@
 }
 
 .navbar.scrolled {
-  background: rgba(255, 255, 255, 0.95);
+  background: rgba(11, 60, 110, 0.95);
   backdrop-filter: blur(8px);
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
@@ -64,7 +64,7 @@
 }
 
 .navbar-logo h1.dark {
-  color: #111827;
+  color: #0B3C6E;
 }
 
 .navbar-logo span {
@@ -100,7 +100,7 @@
 }
 
 .navbar-button:hover {
-  color: #2563eb;
+  color: #D4AF37;
 }
 
 .navbar-button.white {
@@ -108,7 +108,7 @@
 }
 
 .navbar-button.dark {
-  color: #374151;
+  color: #000000;
 }
 
 .login-button {
@@ -135,12 +135,13 @@
 }
 
 .login-button.dark {
-  border-color: #d1d5db;
-  color: #374151;
+  border-color: #0B3C6E;
+  color: #0B3C6E;
 }
 
 .login-button.dark:hover {
-  background: #f9fafb;
+  background: #0B3C6E;
+  color: #FFFFFF;
 }
 
 .login-icon {
@@ -194,12 +195,13 @@
 }
 
 .user-button.dark {
-  border-color: #d1d5db;
-  color: #374151;
+  border-color: #0B3C6E;
+  color: #0B3C6E;
 }
 
 .user-button.dark:hover {
-  background: #f9fafb;
+  background: #0B3C6E;
+  color: #FFFFFF;
 }
 
 .user-dropdown {
@@ -221,7 +223,7 @@
   gap: 0.5rem;
   padding: 0.75rem 1rem;
   font-size: 0.875rem;
-  color: #374151;
+  color: #000000;
   background: none;
   border: none;
   width: 100%;
@@ -232,9 +234,9 @@
 
 .user-dropdown-item:first-child {
   font-weight: 600;
-  color: #d4af37;
+  color: #D4AF37;
   cursor: default;
-  background: #f9fafb;
+  background: #F8F9FA;
 }
 
 .user-dropdown-item.logout-item:hover {
