@@ -46,7 +46,7 @@
 
 /* Left Side - Dark Section */
 .login-left {
-  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+  background: linear-gradient(135deg, #0B3C6E 0%, #0A355E 50%, #082D4E 100%);
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -148,7 +148,7 @@
 .login-title {
   font-size: 2rem;
   font-weight: 600;
-  color: #333;
+  color: #0B3C6E;
   margin: 0;
 }
 
@@ -188,7 +188,7 @@
 }
 
 .form-input:focus {
-  border-color: #d4af37;
+  border-color: #D4AF37;
   background: white;
   box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.1);
 }
@@ -245,8 +245,8 @@
 }
 
 .checkbox:checked + .checkmark {
-  background: #d4af37;
-  border-color: #d4af37;
+  background: #D4AF37;
+  border-color: #D4AF37;
 }
 
 .checkbox:checked + .checkmark::after {
@@ -259,7 +259,7 @@
 .forgot-link {
   background: none;
   border: none;
-  color: #d4af37;
+  color: #D4AF37;
   font-size: 0.9rem;
   cursor: pointer;
   text-decoration: none;
@@ -270,7 +270,7 @@
 }
 
 .login-button {
-  background: #333;
+  background: #0B3C6E;
   color: white;
   border: none;
   padding: 1rem;
@@ -282,7 +282,7 @@
 }
 
 .login-button:hover {
-  background: #222;
+  background: #D4AF37;
   transform: translateY(-1px);
 }
 
@@ -300,7 +300,7 @@
 
 .signup-button:hover {
   background: #e9ecef;
-  border-color: #d4af37;
+  border-color: #D4AF37;
 }
 
 
