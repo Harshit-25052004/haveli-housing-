@@ -1,6 +1,6 @@
 .list-property-page {
   min-height: 100vh;
-  background-color: #f8f9fa;
+  background-color: #FFFFFF;
   padding-top: 2rem;
 }
 
@@ -8,14 +8,14 @@
   font-size: 2.5rem;
   font-weight: 300;
   letter-spacing: 0.1em;
-  color: #333;
+  color: #0B3C6E;
   margin-bottom: 0.5rem;
   text-align: center;
 }
 
 .page-subtitle {
   font-size: 1.1rem;
-  color: #666;
+  color: #000000;
   text-align: center;
   margin-bottom: 3rem;
 }
@@ -27,7 +27,7 @@
 .section-title {
   font-size: 1.8rem;
   font-weight: 500;
-  color: #d4af37;
+  color: #D4AF37;
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -46,7 +46,7 @@
   border-radius: 8px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  border-left: 4px solid #d4af37;
+  border-left: 4px solid #D4AF37;
 }
 
 .property-name-card:hover {
@@ -57,13 +57,13 @@
 .property-name {
   font-size: 1.25rem;
   font-weight: 600;
-  color: #333;
+  color: #000000;
   margin-bottom: 0.5rem;
 }
 
 .property-rera {
   font-size: 0.9rem;
-  color: #d4af37;
+  color: #D4AF37;
   font-weight: 500;
   margin-bottom: 0.5rem;
 }
@@ -92,7 +92,7 @@
 .property-rate {
   font-size: 1rem;
   font-weight: 600;
-  color: #d4af37;
+  color: #D4AF37;
 }
 
 .property-plots {
@@ -115,12 +115,12 @@
 
 .contact-text {
   font-size: 1.1rem;
-  color: #666;
+  color: #000000;
   margin-bottom: 2rem;
 }
 
 .contact-btn {
-  background-color: #d4af37;
+  background-color: #D4AF37;
   color: white;
   border: none;
   padding: 1rem 2rem;
@@ -134,7 +134,7 @@
 }
 
 .contact-btn:hover {
-  background-color: #b8941f;
+  background-color: #0B3C6E;
   transform: translateY(-2px);
   box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
 }

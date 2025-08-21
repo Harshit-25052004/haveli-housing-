@@ -78,7 +78,7 @@
 .menu-section-title {
   font-size: 0.875rem;
   font-weight: bold;
-  color: #111827;
+  color: #0B3C6E;
   margin: 0;
   padding-bottom: 0.25rem;
   border-bottom: 1px solid #e5e7eb;
@@ -88,7 +88,7 @@
 .menu-subsection-title {
   font-size: 0.875rem;
   font-weight: 600;
-  color: #374151;
+  color: #000000;
   margin: 0.75rem 0 0.375rem 0;
 }
 
@@ -103,7 +103,7 @@
 }
 
 .menu-link {
-  color: #4b5563;
+  color: #000000;
   text-decoration: none;
   font-size: 0.75rem;
   line-height: 1.2;
@@ -113,7 +113,7 @@
 }
 
 .menu-link:hover {
-  color: #2563eb;
+  color: #D4AF37;
 }
 
 .menu-backdrop {
