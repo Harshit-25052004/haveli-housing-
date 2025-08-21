@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "c001",
+    "name": "Amit Sharma",
+    "aadhar_number": "1234-5678-9012",
+    "phone_number": "9876543210",
+    "project_id": "68864aa2a3c55c813f55dc51",
+    "plot_number": 21,
+    "payment": {
+      "cash": 300000,
+      "cheque": 200000,
+      "total": 500000,
+      "remaining": 100000
+    },
+    "status": "ongoing",
+    "saled_by": "E001"
+  }
+]
